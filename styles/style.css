@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: "Roboto", serif;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+div {
+    /*border: 1px solid black;*/
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    padding: 5px;
+}
+
+/* Sections */
+.hero {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 40px
+}
+
+.hero_text {
+    width: 430px;
+}
+
+.placeholder {
+    width: 430px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_wrapper {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_banner {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info_elements {
+    display: flex;
+    gap: 20px;
+}
+
+.element {
+    width: 150px;
+}
+
+.thumbnail {
+    width: 142px;
+    height: 142px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote_container {
+    flex: 3;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 790px;
+}
+
+.citation {
+    color: black;
+    font-weight: 900;
+    width: 700px;
+    display: flex;
+    justify-content: right;
+}
+
+.action {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    width: 900px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.call-to-action h3 {
+    margin: 0px;
+}
+
+.footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Theme */
+
+.dark {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero_logo {
+    font-size: 24px;
+}
+
+.hero_main_text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero_secondary_text {
+    font-size: 18px;
+}
+
+.hero_button {
+    background-color: #3882F6;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 10px;
+}
+
+.action_button {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 4px 16px;
+}
